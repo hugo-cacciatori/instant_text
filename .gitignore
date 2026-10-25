@@ -1,0 +1,10 @@
+AGENTS.md
+CLAUDE.md
+docs/
+.git-docs/
+.agents/
+.codex/
+dist/
+.tools/
+__pycache__/
+*.pyc

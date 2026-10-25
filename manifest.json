@@ -1,0 +1,17 @@
+{
+  "id": "instant_text",
+  "name": "Instant Text",
+  "version": "0.1.0",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "category": "QOL",
+  "game_version": ">=0.3.96 <0.3.97",
+  "games": ["all"],
+  "permissions": ["engine_internals"],
+  "priority": 100,
+  "dependencies": [],
+  "conflicts": [],
+  "github": "hugo-cacciatori/instant_text",
+  "description": "Text appears a whole page at a time in every generation. Prompts, choices and scripted pauses still work; no settings."
+}
