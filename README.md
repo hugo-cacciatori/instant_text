@@ -15,21 +15,4 @@ Download the ZIP from [Releases](https://github.com/hugo-cacciatori/instant_text
 
 ## Development
 
-Run the headless integration suite:
-
-```powershell
-python tools/test.py --engine C:/path/to/gen1recomp-0.3.96
-```
-
-Build the release archive and checksums:
-
-```powershell
-python tools/package.py
-```
-
-Verify the packaged ZIP against the engine and against the installed game data:
-
-```powershell
-python tools/test_package.py --engine C:/path/to/gen1recomp-0.3.96 --archive dist/v0.1.0/instant_text-0.1.0.zip
-python tools/test_installed.py --installation C:/Users/<you>/AppData/Roaming/pokemon-love2d --archive dist/v0.1.0/instant_text-0.1.0.zip
-```
+The repository holds the mod's source and its headless test suites. Releases are built and verified with the project's build tooling: the suites run on the packaged zip in an external engine copy, then against a staged copy of the installed game and its imported data. Install the release zip.
