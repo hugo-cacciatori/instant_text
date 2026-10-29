@@ -1,3 +1,8 @@
+# 0.1.1
+
+- Load on engine 0.3.97: the supported engine range is now `>=0.3.96 <0.4.0`.
+- The logic now ships as a library bundled inside the mod; behaviour is unchanged.
+
 # 0.1.0
 
 - Reveal text a whole page or segment at a time across Gen 1 (`red`, `blue`, `yellow`), Gen 2 (`gold`, `silver`, `crystal`), and Gen 3 (`firered`, `leafgreen`, `ruby`, `sapphire`, `emerald`) on gen1recomp 0.3.96 (`"games": ["all"]`).
