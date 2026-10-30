@@ -7,11 +7,15 @@
   "profile": "content",
   "category": "QOL",
   "game_version": ">=0.3.96 <0.4.0",
-  "games": ["all"],
-  "permissions": ["engine_internals"],
+  "games": [
+    "all"
+  ],
+  "permissions": [
+    "engine_internals"
+  ],
   "priority": 100,
   "dependencies": [],
   "conflicts": [],
-  "github": "hugo-cacciatori/instant_text",
-  "description": "Text appears a whole page at a time in every generation. Prompts, choices and scripted pauses still work; no settings."
+  "description": "Text appears a whole page at a time in every generation. Prompts, choices and scripted pauses still work; no settings.",
+  "github": "hugo-cacciatori/instant_text"
 }
